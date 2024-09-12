@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 40px auto;
+    color: yellow;
+}
+.btn{
+    position: absolute;
+    top: 40%;
+    display: flex;
+    gap: 20px;
+}
+.btn button{
+    border: 5px solid yellow;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: blue;
+    cursor: pointer;
+}
+.result{
+    position: absolute;
+    bottom: 20%;
+}
+.result p{
+    color: hotpink;
+    font-size: large;
+    font-weight: 700;
+}
